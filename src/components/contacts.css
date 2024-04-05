@@ -1,0 +1,127 @@
+.message{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.declare{
+    max-width: 500px;
+    text-align: start;
+    margin-left: 100px;
+    position: relative;
+    bottom: 85px;
+    
+}
+
+
+.declare h5{
+    font-size: 13px;
+    color:#212121;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height:1rem ;
+
+}
+
+.message input::-webkit-inner-spin-button{
+    display: none;
+}
+
+.form span{
+    display: block;
+    max-width: 20px 0;
+}
+
+
+
+
+.declare p{
+    font-size: 11px;
+    font-weight: bold;
+    color:blueviolet;
+}
+
+.declare h3{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.coordinate{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    
+
+}
+
+.coordinate i{
+    margin-right: 7px;
+    font-size: 13px;
+    color: purple;
+}
+
+.form{
+    width: 500px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.form input , textarea{
+    display: block;
+    width: 100%;
+    background: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+label{
+    font-size: 15px;
+}
+.form button{
+    width: 100px;
+    height: 30px;
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+    background-color:blue;
+    color: #fff;
+    font-weight: bold;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.head i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.form span{
+    font-size: 13px;
+    color: green;
+    font-weight: bold;
+}
+
+@media(max-width:600px){
+    .message{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .declare , .form{
+        width: 80%;
+        margin: 0px 10%;
+    }
+    .declare{
+        bottom: 0;
+    }
+    .declare h5{
+        margin:15px 0 ;
+    }
+}

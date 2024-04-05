@@ -1,0 +1,83 @@
+.about{
+    width: 80%;
+    margin:20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.flyer{
+    position: relative;
+}
+
+.flyer img{
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.text{
+    max-width: 500px;
+}
+
+
+.text p{
+    margin: 10px 0;
+}
+
+.text h3{
+    margin-top: 10px;
+    color: blueviolet;
+}
+
+.text h5{
+    color: blue;
+}
+
+.play{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.play img{
+    width: 40px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.all button{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: blue;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+@media (max-width:600px){
+    .about{
+        flex-direction: column;
+    }
+
+    .text p{
+        font-size: 12px;
+    }
+
+    .flyer{
+        order: 2;
+    }
+
+    .flyer img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .play img{
+        width:40px ;
+    }
+}

@@ -1,0 +1,44 @@
+.programms{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.program{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.program img{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.icon{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    opacity: 0;
+    transition: .5s;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+
+.program:hover .icon{
+    opacity: 1;
+    padding-top: 70px;
+}
+
+.icon img{
+    width: 45px;
+}
+
+@media(max-width:600px){
+    .programms{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,18 @@
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.terms{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.copy , .terms{
+    margin: 20px 0px;
+}

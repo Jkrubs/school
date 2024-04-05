@@ -1,0 +1,27 @@
+.testimonials{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+.testimony{
+    width: 450px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.testimonials::-webkit-scrollbar{
+    display: none;
+}
+@media(max-width:600px){
+    .testimonials{
+        width: 100%;
+    }
+    .testimony{
+        width: 200px;
+        margin: auto;
+    }
+}
